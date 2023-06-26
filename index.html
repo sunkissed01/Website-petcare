@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <!--
+    - primary meta tags
+  -->
+  <title>PetCare</title>
+  <meta name="title" content="PetCare">
+  <meta name="description" content="PetCare Project">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/require.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" href="./assets/images/hero-banner.png">
+
+</head>
+
+<body>
+
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="preloader-circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logopet.jpg" width="151" height="28" alt="Annie home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="label-lg navbar-link has-after active">Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./service.html" class="label-lg navbar-link has-after">Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="onlineshop.html" class="label-lg navbar-link has-after">OnlineShop</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./contact.html" class="label-lg navbar-link has-after">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+      <audio id="wind-audio">
+        <source src="assets/sounds/wind_sound.wav" type="audio/wav">
+      </audio>
+
+      <a href="./contact.html" class="btn btn-primary">Contact Now</a>
+
+      <button class="nav-toggle-btn" aria-label="menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">We'll take care of your PETS</p>
+
+            <h1 class="headline-lg">Pet clinic platform for convenience.</h1>
+
+            <p class="hero-text body-md">
+              Based in Astana, Kazakhstan.
+            </p>
+
+            <a href="#" class="btn btn-primary">Let's Start</a>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/bannerpet.jpg" width="680" height="645"
+              alt="Annie, the blonde, dressed in a green hoodie with a smile on her face" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about me">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/pet01.jpg" width="580" height="554" loading="lazy"
+              alt="Annie, the blonde, dressed in a black tops with a smile on her face" class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="title-lg">We provide an interactive platform connecting pet owners and clinics,
+              making pet clinic services and administration more accessible and user-friendly.</h2>
+
+            <p class="body-md section-text">
+              The vet was extremely professional and
+              asked various questions to ensure the
+              right medication was given.
+            </p>
+
+            <ul class="about-list">
+
+              <li>
+                <p class="list-text">
+                  <strong class="strong title-md">285+</strong> Services Completed
+                </p>
+              </li>
+
+              <li>
+                <p class="list-text">
+                  <strong class="strong title-md">190+</strong> Happy Clients
+                </p>
+              </li>
+
+            </ul>
+
+            <div class="wrapper">
+              <a href="./contact.html" class="btn btn-primary">Contact Us</a>
+
+              <a href="onlineshop.html" class="btn btn-secondary">OnlineShop</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILL
+      -->
+
+      <section class="section skill" aria-labelledby="skill-label">
+        <div class="container">
+
+          <div class="skill-content">
+
+            <h2 class="section-title headline-md" id="skill-label">Why Choose Us</h2>
+
+            <ul class="skill-list">
+
+              <li>
+                <div class="card card-sm" style="background-color: hsl(177, 39%, 72%)">
+
+                  <div class="card-media">
+                    <ion-icon name="paw-outline"></ion-icon>
+                  </div>
+
+                  <h2 class="card-title">Seamless experience for all</h2>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="card card-sm" style="background-color: hsl(41, 99%, 64%)">
+
+                  <div class="card-media">
+                    <ion-icon name="paw-outline"></ion-icon>
+                  </div>
+
+                  <h2 class="card-title">Easy accessibility</h2>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="card card-sm" style="background-color: hsl(19, 97%, 85%)">
+
+                  <div class="card-media">
+                    <ion-icon name="paw-outline"></ion-icon>
+                  </div>
+
+                  <h2 class="card-title">Time and cost savings</h2>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="card card-sm" style="background-color: hsl(221, 100%, 79%)">
+
+                  <div class="card-media">
+                    <ion-icon name="paw-outline"></ion-icon>
+                  </div>
+
+                  <h2 class="card-title">Effective communication</h2>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="card card-sm" style="background-color: hsl(76, 39%, 72%)">
+
+                  <div class="card-media">
+                    <ion-icon name="paw-outline"></ion-icon>
+                  </div>
+
+                  <h2 class="card-title">Comprehensive management tools</h2>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="card card-sm" style="background-color: hsl(245, 100%, 90%)">
+
+                  <div class="card-media">
+                    <ion-icon name="paw-outline"></ion-icon>
+                  </div>
+
+                  <h2 class="card-title">Trusted clinic network</h2>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <figure class="skill-banner">
+            <img src="./assets/images/pet02.jpg" width="581" height="657" loading="lazy"
+              alt="Annie, the blonde, dressed in a green hoodie with a smile on her face" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta">
+        <div class="container">
+          <h2 class="title-lg">Intrested working with us?</h2>
+
+          <a href="./contact.html" class="btn btn-tertiary">Contact Now</a>
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi" aria-labelledby="testi-label">
+        <div class="container">
+
+          <h2 class="headline-md section-title text-center" id="testi-label">Feedback</h2>
+
+          <ul class="slider">
+
+            <li class="slider-item card-container">
+              <div class="card card-lg">
+
+                <figure class="card-media">
+                  <img src="./assets/images/testi-1.jpg" width="100" height="100" loading="lazy" alt="Jennifer Lutheran"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <blockquote class="body-sm">
+                    I am extremely satisfied with the service provided by your platform. The user-friendly interface made it easy for me to find and connect with the perfect clinic for my pet's needs.
+                    The treatment process was smooth, and the clinic administration was efficient. Overall, a great experience!
+                  </blockquote>
+
+                  <p class="client-name">Jennifer Lutheran</p>
+
+                  <p class="client-title">CEO at pxdraft</p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="slider-item card-container">
+              <div class="card card-lg">
+
+                <figure class="card-media">
+                  <img src="./assets/images/testi-2.jpg" width="100" height="100" loading="lazy" alt="Jennifer Lutheran"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <blockquote class="body-sm">
+                    I have had a wonderful experience using your platform for my pet's healthcare needs.
+                    The convenience it offers is remarkable, from finding clinics to managing appointments and treatments . The platform's intuitive design and helpful features have made my life as a pet owner much easier. I highly recommend it!
+                  </blockquote>
+
+                  <p class="client-name">Jennifer Lutheran</p>
+
+                  <p class="client-title">CEO at pxdraft</p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="slider-item card-container">
+              <div class="card card-lg">
+
+                <figure class="card-media">
+                  <img src="./assets/images/testi-3.jpg" width="100" height="100" loading="lazy" alt="Jennifer Lutheran"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <blockquote class="body-sm">
+                    Dolor lorem is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s.
+                  </blockquote>
+
+                  <p class="client-name">Jennifer Lutheran</p>
+
+                  <p class="client-title">CEO at pxdraft</p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="slider-item card-container">
+              <div class="card card-lg">
+
+                <figure class="card-media">
+                  <img src="./assets/images/testi-4.jpg" width="100" height="100" loading="lazy" alt="Jennifer Lutheran"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <blockquote class="body-sm">
+                    Dolor lorem is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s.
+                  </blockquote>
+
+                  <p class="client-name">Jennifer Lutheran</p>
+
+                  <p class="client-title">CEO at pxdraft</p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer>
+
+
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+
+
+
+
+    <ul class="social_icon">
+
+
+      <li><a href="#"><ion-icon name="logo-facebook"></ion-icon> </a></li>
+
+
+      <li><a href="#"><ion-icon name="logo-twitch"></ion-icon> </a></li>
+
+
+      <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon> </a></li>
+
+
+      <li><a href="#"><ion-icon name="logo-github"></ion-icon> </a></li>
+
+
+      <li><a href="#"><ion-icon name="logo-snapchat"></ion-icon> </a></li>
+
+
+      <li><a href="#"><ion-icon name="logo-youtube"></ion-icon> </a></li>
+
+
+      <li><a href="#"><ion-icon name="logo-steam"></ion-icon> </a></li>
+
+
+      <li><a href="#"><ion-icon name="musical-notes-outline"></ion-icon> </a></li>
+
+
+      <li><a href="#"><ion-icon name="earth-outline"></ion-icon> </a></li>
+
+
+      <li><a href="#"><ion-icon name="mail-outline"></ion-icon> </a></li>
+
+    </ul>
+
+
+
+    <p>Providing compassionate care for your furry friends.</p>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Add this script tag after the jQuery inclusion -->
+  <script>
+    $(document).ready(function() {
+      // This code will run when the document is fully loaded
+
+      // Example: Adding a click event handler to the "Contact Now" button
+      $('.btn-primary').click(function() {
+        alert('Contact button clicked!');
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function() {
+      // Smooth scrolling to an anchor on the page
+      $('a[href^="#"]').on('click', function(event) {
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: $($.attr(this, 'href')).offset().top
+        }, 500);
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function() {
+      // Toggling a class on click
+      $('.toggle-button').on('click', function() {
+        $('.target-element').toggleClass('active');
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function() {
+      // Form validation example
+      $('form').on('submit', function(event) {
+        event.preventDefault();
+        var name = $('#name').val();
+        var email = $('#email').val();
+
+        if (name === '') {
+          alert('Please enter your name.');
+        } else if (email === '') {
+          alert('Please enter your email.');
+        } else {
+          alert('Form submitted successfully!');
+          // Submit the form or perform other actions
+          // based on the validation result
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>

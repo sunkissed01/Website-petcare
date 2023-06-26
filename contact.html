@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>PetCare</title>
+  <meta name="title" content="PetCare">
+  <meta name="description" content="PetCare Project">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/require.css">
+  <link rel="stylesheet" href="./assets/css/pages/contact.css">
+
+</head>
+
+<body>
+
+  <!--
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="preloader-circle"></div>
+  </div>
+
+
+
+
+
+  <!--
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="./index.html" class="logo">
+        <img src="./assets/images/logopet.jpg" width="151" height="28" alt="Annie home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="./index.html" class="label-lg navbar-link has-after">Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./service.html" class="label-lg navbar-link has-after">Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="onlineshop.html" class="label-lg navbar-link has-after">OnlineShop</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="label-lg navbar-link has-after active">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+      <audio id="wind-audio">
+        <source src="assets/sounds/wind_sound.wav" type="audio/wav">
+      </audio>
+
+      <a href="./contact.html" class="btn btn-primary">Contact Now</a>
+
+      <button class="nav-toggle-btn" aria-label="menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <section class="section contact has-bg-image contact" aria-labelledby="contact-label"
+               style="background-image: url('./assets/images/contact-bg.png')">
+        <div class="container">
+
+          <form action="" class="contact-form">
+
+            <h2 class="headline-sm" id="contact-label">Get in touch</h2>
+
+            <p class="contact-text body-md">
+              Our friendly team would love to hear from you.
+            </p>
+
+            <div class="wrapper">
+
+              <div>
+                <label for="name" class="label">First name</label>
+
+                <input type="text" name="name" id="name" placeholder="Name *" required class="input-field">
+              </div>
+
+              <div>
+                <label for="email" class="label">Your Email </label>
+
+                <input type="email" name="email" id="email" placeholder="Email *" required class="input-field">
+              </div>
+
+            </div>
+
+            <label for="subject" class="label">Subject</label>
+            <input type="text" name="subject" id="subject" placeholder="Subject *" class="input-field">
+
+            <label for="message" class="label">Your message </label>
+            <textarea name="message" id="message" placeholder="Your message *" required class="input-field"></textarea>
+
+            <a href="#" class="btn btn-tertiary">Send Message</a>
+
+          </form>
+
+          <div class="contact-content">
+
+            <ul class="contact-list">
+
+              <li class="contact-item">
+
+                <div class="item-icon" style="background-color: hsl(177, 39%, 72%)">
+                  <ion-icon name="call" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div>
+                  <p class="label-lg">Phone</p>
+
+                  <a href="tel:+011236548096" class="body-lg">+01 123 654 8096</a>
+                </div>
+
+              </li>
+
+              <li class="contact-item">
+
+                <div class="item-icon" style="background-color: hsl(41, 99%, 64%)">
+                  <ion-icon name="mail" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div>
+                  <p class="label-lg">Mail</p>
+
+                  <a href="tel:gmail.com" class="body-lg">info@gmail.com</a>
+                </div>
+
+              </li>
+
+              <li class="contact-item">
+
+                <div class="item-icon" style="background-color: hsl(19, 97%, 85%)">
+                  <ion-icon name="location" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div>
+                  <p class="label-lg">Visit Our Company</p>
+
+                  <address class="body-lg">
+                    Astana City
+                  </address>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer>
+
+
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+
+
+
+
+    <ul class="social_icon">
+
+
+      <li><a href="#"><ion-icon name="logo-facebook"></ion-icon> </a></li>
+
+
+      <li><a href="#"><ion-icon name="logo-twitch"></ion-icon> </a></li>
+
+
+      <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon> </a></li>
+
+
+      <li><a href="#"><ion-icon name="logo-github"></ion-icon> </a></li>
+
+
+      <li><a href="#"><ion-icon name="logo-snapchat"></ion-icon> </a></li>
+
+
+      <li><a href="#"><ion-icon name="logo-youtube"></ion-icon> </a></li>
+
+
+      <li><a href="#"><ion-icon name="logo-steam"></ion-icon> </a></li>
+
+
+      <li><a href="#"><ion-icon name="musical-notes-outline"></ion-icon> </a></li>
+
+
+      <li><a href="#"><ion-icon name="earth-outline"></ion-icon> </a></li>
+
+
+      <li><a href="#"><ion-icon name="mail-outline"></ion-icon> </a></li>
+
+    </ul>
+
+
+    <p>Providing compassionate care for your furry friends.</p>
+
+  </footer>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      // Form validation example
+      $('form').on('submit', function(event) {
+        event.preventDefault();
+        var name = $('#name').val();
+        var email = $('#email').val();
+
+        if (name === '') {
+          alert('Please enter your name.');
+        } else if (email === '') {
+          alert('Please enter your email.');
+        } else {
+          alert('Form submitted successfully!');
+          // Submit the form or perform other actions
+          // based on the validation result
+        }
+      });
+    });
+  </script>
+
+</body>
+
+</html>
